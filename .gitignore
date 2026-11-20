@@ -1,0 +1,20 @@
+# 本地 SDK 路径（Android Studio 自动生成；模板见 local.properties.example）
+local.properties
+
+# 高德凭据：key 明文与运行时密文都不入库（密文密钥源自本仓库源码，等同明文）。
+# 克隆后复制 config/amap_key.json.example 填入自己的 key，再按 README「高德 key」生成密文
+config/amap_key.json
+app/src/main/assets/amap_secret.bin
+
+# 构建产物与缓存
+dist/
+build/
+app/build/
+liquidglass/build/
+.gradle/
+.kotlin/
+*.apk
+.idea/
+*.iml
+captures/
+__pycache__/

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      单 Activity + Compose：XML 主题只提供窗口底色与系统栏外观，
+      页面视觉全部由 Compose（designsystem 玻璃面）驱动。
+      颜色与 Theme.kt 的浅色 Palette 同源。
+    -->
+    <style name="Theme.Xbud" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#1B88EE</item>
+        <item name="android:colorAccent">#1B88EE</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowBackground">#F4F5F7</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

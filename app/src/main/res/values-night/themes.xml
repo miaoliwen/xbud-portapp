@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色模式冷启动底色，避免白窗闪现；与 DarkPalette.pageBottom 同源 -->
+    <style name="Theme.Xbud" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">#5FA8F0</item>
+        <item name="android:colorAccent">#5FA8F0</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowBackground">#0E1116</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">#0E1116</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
